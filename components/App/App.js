@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Button from '@material-ui/core/Button';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
 import Navbar from '../Menu/Menu';
 
 class App extends React.Component {
@@ -30,17 +33,24 @@ function Header() {
 
 function Content() {
     return (
-        <Container>
-            <Row>
-                <Col sm={8}>sm=8</Col>
-                <Col sm={4}>sm=4</Col>
-            </Row>
-            <Row>
-                <Col sm>sm=true</Col>
-                <Col sm>sm=true</Col>
-                <Col sm>sm=true</Col>
-            </Row>
-        </Container>
+        <div>
+            <Container>
+                <Card>
+                <CardContent>
+                    <Row>
+                        <Col sm={8}>sm=8</Col>
+                        <Col sm={4}>sm=4</Col>
+                    </Row>
+                    <Row>
+                        <Col sm>sm=true</Col>
+                        <Col sm>sm=true</Col>
+                        <Col sm>sm=true</Col>
+                    </Row>
+                </CardContent>
+                </Card>
+            </Container>
+            
+        </div>
     );
   }
 
