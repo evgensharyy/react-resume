@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Navbar from '../Menu/Menu';
+import NavMenu from '../NavMenu/NavMenu';
 import Content from '../Content/Content';
 
 
 function Header() {
     return (
-        <Navbar />
+        <NavMenu />
     );
 }
 
@@ -19,7 +19,7 @@ class App extends React.Component {
         return (
             <Router>
                 <Header />
-                <Content /> 
+                <Route path="/" exact component={Content} /> 
             </Router>                     
         );
     }

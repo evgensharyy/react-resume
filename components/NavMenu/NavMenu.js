@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-class Menu extends React.Component {
+class NavMenu extends React.Component {
     constructor(props) {
         super(props);
         }
@@ -23,4 +22,4 @@ class Menu extends React.Component {
     }
 }
 
-export default Menu;
+export default NavMenu;
