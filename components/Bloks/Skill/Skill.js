@@ -18,7 +18,7 @@ class Skill extends React.Component {
           );
 
         return (
-            <OverlayTrigger trigger="click" placement="right" overlay={popover}>
+            <OverlayTrigger trigger="click" placement="top" overlay={popover}>
               {this.props.skillButton}
             </OverlayTrigger>                   
         );

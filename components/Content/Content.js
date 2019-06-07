@@ -5,6 +5,9 @@ import Col from 'react-bootstrap/Col';
 
 import PortfolioBlock from '../Bloks/PortfolioBlok';
 import SkillsBlock from '../Bloks/SkillsBlok';
+import EmploymentHistoryBlok from '../Bloks/EmploymentHistoryBlok';
+import EducationBlok from '../Bloks/EducationBlok';
+import OtherExperiences from '../Bloks/OtherExperiences';
 
 
 export default function SimpleCard() {
@@ -17,7 +20,13 @@ export default function SimpleCard() {
                 <Col sm><SkillsBlock /></Col>
               </Row>
               <Row>
-                <Col sm></Col>
+                <Col sm><EmploymentHistoryBlok /></Col>
+              </Row>
+              <Row>
+                <Col sm><EducationBlok /></Col>
+              </Row>
+              <Row>
+                <Col sm><OtherExperiences /></Col>
               </Row>
             </Container>                     
         );

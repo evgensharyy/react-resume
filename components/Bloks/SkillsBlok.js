@@ -31,7 +31,7 @@ function SkillsBlock() {
     <Card className={classes.card}>
       <CardHeader
         avatar={
-            <h3><Badge variant="success">Skills</Badge></h3>
+            <h3><Badge variant="light">Skills</Badge></h3>
         }
         title="Shrimp and Chorizo Paella"
         subheader="September 14, 2016"
@@ -57,7 +57,7 @@ function SkillsBlock() {
         title={skill.title} 
         text={skill.text}
         skillButton={
-          <Button className={classes.skills} variant="info">{skill.title}</Button>
+          <Button className={classes.skills} variant="outline-success">{skill.title}</Button>
         }
         />
       ))}

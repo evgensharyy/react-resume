@@ -50,7 +50,7 @@ function PortfolioBlock() {
     <Card className={classes.card}>
       <CardHeader
         avatar={
-            <h3><Badge variant="success">Portfolio</Badge></h3>
+            <h3><Badge variant="light">Portfolio</Badge></h3>
         }
         title="Shrimp and Chorizo Paella"
         subheader="September 14, 2016"
