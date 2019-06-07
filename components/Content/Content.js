@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+import AboutBlok from '../Bloks/AboutBlok';
 import PortfolioBlock from '../Bloks/PortfolioBlok';
 import SkillsBlock from '../Bloks/SkillsBlok';
 import EmploymentHistoryBlok from '../Bloks/EmploymentHistoryBlok';
@@ -12,6 +13,10 @@ import OtherExperiences from '../Bloks/OtherExperiences';
 
 export default function SimpleCard() {
         return (
+          <div>
+            <Container>
+              <AboutBlok />
+            </Container>
             <Container>
               <Row>
                 <Col sm><PortfolioBlock /></Col>
@@ -28,6 +33,7 @@ export default function SimpleCard() {
               <Row>
                 <Col sm><OtherExperiences /></Col>
               </Row>
-            </Container>                     
+            </Container>
+          </div>                     
         );
     }
