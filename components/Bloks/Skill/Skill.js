@@ -12,14 +12,14 @@ class Skill extends React.Component {
     render(){
 
         const popover = (
-            <Popover id="popover-basic" title={props.title}>
-              {props.text}
+            <Popover id="popover-basic" title={this.props.title}>
+              {this.props.text}
             </Popover>
           );
 
         return (
             <OverlayTrigger trigger="click" placement="right" overlay={popover}>
-              {props.skillButton}
+              {this.props.skillButton}
             </OverlayTrigger>                   
         );
 
