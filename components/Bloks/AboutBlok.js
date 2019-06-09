@@ -6,7 +6,8 @@ import Avatar from '@material-ui/core/Avatar';
 import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
-import Badge from '../../static/images/avatar/1.jpg';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -23,17 +24,20 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-const classes = useStyles();
-
 function Photo() {
-    return (
-        
-        <Avatar alt="Remy Sharp" src='../../static/images/avatar/1.jpg' className={classes.bigAvatar} />
 
+  const classes = useStyles();
+
+    return (
+        <div>
+          <Avatar alt="Remy Sharp" src='../../static/images/avatar/1.jpg' className={classes.bigAvatar} />
+        </div>
   );
 }
 
-function EducationBlok() {
+export default function EducationBlok() {
+
+  const classes = useStyles();
 
   return (
         <Row>
@@ -53,5 +57,3 @@ function EducationBlok() {
         </Row>
   );
 }
-
-export default EducationBlok;
