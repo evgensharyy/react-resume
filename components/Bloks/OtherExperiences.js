@@ -5,6 +5,8 @@ import Card from '@material-ui/core/Card';
 import CardHeader from '@material-ui/core/CardHeader';
 import CardContent from '@material-ui/core/CardContent';
 import Badge from 'react-bootstrap/Badge';
+import Tabs from 'react-bootstrap/Tabs';
+import Tab from 'react-bootstrap/Tab';
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -30,6 +32,27 @@ function OtherExperiences() {
       subheader="updated June 09, 2019"
     />
     <CardContent>
+
+      <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+        <Tab eventKey="home" title="Home">
+          <Typography variant="body2" color="textSecondary" component="p">
+            This impressive paella is a perfect party dish and a fun meal to cook together with your
+            guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          </Typography>
+        </Tab>
+        <Tab eventKey="profile" title="Profile">
+          <Typography variant="body2" color="textSecondary" component="p">
+            This impressive paella is a perfect party dish and a fun meal to cook together with your
+            guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          </Typography>
+        </Tab>
+        <Tab eventKey="contact" title="Contact" disabled>
+          <Typography variant="body2" color="textSecondary" component="p">
+            This impressive paella is a perfect party dish and a fun meal to cook together with your
+            guests. Add 1 cup of frozen peas along with the mussels, if you like.
+          </Typography>
+        </Tab>
+      </Tabs>
 
     </CardContent>
     </Card>
