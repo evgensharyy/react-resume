@@ -23,7 +23,7 @@ function PortfolioBlock() {
         avatar={
             <h3><Badge variant="light">Employment History</Badge></h3>
         }
-        title="Shrimp and Chorizo Paella"
+        title="I like interesting work"
         subheader="updated June 09, 2019"
       />
       <CardContent>
