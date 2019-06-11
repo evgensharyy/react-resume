@@ -7,10 +7,14 @@ import CardContent from '@material-ui/core/CardContent';
 import Badge from 'react-bootstrap/Badge';
 import Tabs from 'react-bootstrap/Tabs';
 import Tab from 'react-bootstrap/Tab';
+import Alert from 'react-bootstrap/Alert';
 
 const useStyles = makeStyles(theme => ({
   root: {
     padding: theme.spacing(3, 2),
+  },
+  alert: {
+    marginTop: 20,
   },
   card: {
     marginTop: 20,
@@ -35,10 +39,19 @@ function OtherExperiences() {
 
       <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
         <Tab eventKey="home" title="Home">
-          <Typography variant="body2" color="textSecondary" component="p">
-            This impressive paella is a perfect party dish and a fun meal to cook together with your
-            guests. Add 1 cup of frozen peas along with the mussels, if you like.
-          </Typography>
+          <Alert variant="success" className={classes.alert}>
+            <Alert.Heading>Hey, nice to see you</Alert.Heading>
+            <p>
+              Aww yeah, you successfully read this important alert message. This example
+              text is going to run a bit longer so that you can see how spacing within an
+              alert works with this kind of content.
+            </p>
+            <hr />
+            <p className="mb-0">
+              Whenever you need to, be sure to use margin utilities to keep things nice
+              and tidy.
+            </p>
+          </Alert>
         </Tab>
         <Tab eventKey="profile" title="Profile">
           <Typography variant="body2" color="textSecondary" component="p">
@@ -46,7 +59,7 @@ function OtherExperiences() {
             guests. Add 1 cup of frozen peas along with the mussels, if you like.
           </Typography>
         </Tab>
-        <Tab eventKey="contact" title="Contact" disabled>
+        <Tab eventKey="contact" title="Contact">
           <Typography variant="body2" color="textSecondary" component="p">
             This impressive paella is a perfect party dish and a fun meal to cook together with your
             guests. Add 1 cup of frozen peas along with the mussels, if you like.

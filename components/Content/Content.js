@@ -19,10 +19,10 @@ export default function SimpleCard() {
             </Container>
             <Container>
               <Row>
-                <Col sm><PortfolioBlock /></Col>
+                <Col sm><SkillsBlock /></Col>
               </Row>
               <Row>
-                <Col sm><SkillsBlock /></Col>
+                <Col sm><PortfolioBlock /></Col>
               </Row>
               <Row>
                 <Col sm><EmploymentHistoryBlok /></Col>

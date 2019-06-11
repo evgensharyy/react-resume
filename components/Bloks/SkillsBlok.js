@@ -51,6 +51,9 @@ function SkillsBlock() {
         {title: 'Webpack', text: 'Webpack takes modules with dependencies and generates static assets representing those modules. ' },
         {title: 'CentOS', text: 'CentOS is a free operating system distribution based upon the Linux kernel. It is derived entirely from the Red Hat Enterprise Linux (RHEL) distribution. ' },
         {title: 'Data Scraping', text: 'Data scraping is a technique in which a computer program extracts data from human-readable output coming from another program.' },
+        {title: 'Nginx', text: 'ginx [engine x] is an HTTP and reverse proxy server, a mail proxy server, and a generic TCP/UDP proxy server, originally written by Igor Sysoev.' },
+        {title: 'Server admin', text: 'The Server Administrators role is to design, install, administer, and optimize company servers and related components to achieve high performance of the various business functions supported by the servers as necessary.' },
+
       ].map((skill, idx) => (
         <Skill key={idx} 
         title={skill.title} 

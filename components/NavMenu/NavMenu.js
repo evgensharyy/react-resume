@@ -16,8 +16,7 @@ class NavMenu extends React.Component {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <LinkContainer to="/"><Nav.Link href="/">Home</Nav.Link></LinkContainer>
-                        <LinkContainer to="/features"><Nav.Link href="/features">Features</Nav.Link></LinkContainer>
-                        <LinkContainer to="/pricing"><Nav.Link href="/pricing">Pricing</Nav.Link></LinkContainer>
+                        <LinkContainer to="/features"><Nav.Link href="/contacts">Contacts</Nav.Link></LinkContainer>
                     </Nav>
                 </Navbar.Collapse>
                 </Navbar>   
