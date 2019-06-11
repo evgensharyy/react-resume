@@ -37,33 +37,31 @@ function OtherExperiences() {
     />
     <CardContent>
 
-      <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-        <Tab eventKey="home" title="Home">
+      <Tabs defaultActiveKey="dm" id="uncontrolled-tab-example">
+        <Tab eventKey="dm" title="Digital Marketing">
           <Alert variant="success" className={classes.alert}>
-            <Alert.Heading>Hey, nice to see you</Alert.Heading>
+            <Alert.Heading>I like marketing, and especially digital marketing</Alert.Heading>
             <p>
-              Aww yeah, you successfully read this important alert message. This example
-              text is going to run a bit longer so that you can see how spacing within an
-              alert works with this kind of content.
+              Digital marketing is a generic term for marketing 
+              products and services that uses digital channels to attract and retain customers.
             </p>
             <hr />
             <p className="mb-0">
-              Whenever you need to, be sure to use margin utilities to keep things nice
-              and tidy.
+              The experience of introducing advertising companies with the use of modern information technology (Zoho CRM)
             </p>
           </Alert>
         </Tab>
-        <Tab eventKey="profile" title="Profile">
-          <Typography variant="body2" color="textSecondary" component="p">
-            This impressive paella is a perfect party dish and a fun meal to cook together with your
-            guests. Add 1 cup of frozen peas along with the mussels, if you like.
-          </Typography>
-        </Tab>
-        <Tab eventKey="contact" title="Contact">
-          <Typography variant="body2" color="textSecondary" component="p">
-            This impressive paella is a perfect party dish and a fun meal to cook together with your
-            guests. Add 1 cup of frozen peas along with the mussels, if you like.
-          </Typography>
+        <Tab eventKey="advertising" title="Online Advertising">
+        <Alert variant="success" className={classes.alert}>
+            <Alert.Heading>Internet advertising and advertising in social networks</Alert.Heading>
+            <p>
+              An advertisement displayed on time can turn a regular user into a valuable customer.
+            </p>
+            <hr />
+            <p className="mb-0">
+              Experience setting advertising campaigns with a budget of more than 11,000 dollars
+            </p>
+          </Alert>
         </Tab>
       </Tabs>
 
