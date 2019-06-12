@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import NavMenu from '../NavMenu/NavMenu';
 import Content from '../Content/Content';
+import Contacts from '../Contacts/Contacts';
 
 
 function Header() {
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Router>
                 <Header />
                 <Route path="/" exact component={Content} /> 
+                <Route path="/contacts" component={Contacts} />
             </Router>                     
         );
     }

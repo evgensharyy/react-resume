@@ -65,6 +65,8 @@ module.exports = {
   ],
   devServer: {
 	writeToDisk: true,
-	port: 9000
+  port: 9000,
+  publicPath: '/',
+  historyApiFallback: true,
   }
 };

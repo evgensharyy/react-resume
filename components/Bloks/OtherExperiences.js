@@ -32,7 +32,7 @@ function OtherExperiences() {
       avatar={
           <h3><Badge variant="light">Other Experiences</Badge></h3>
       }
-      title="Shrimp and Chorizo Paella"
+      title="I like marketing and consumer psychology"
       subheader="updated June 09, 2019"
     />
     <CardContent>

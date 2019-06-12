@@ -11,7 +11,7 @@ import EducationBlok from '../Bloks/EducationBlok';
 import OtherExperiences from '../Bloks/OtherExperiences';
 
 
-export default function SimpleCard() {
+export default function Content() {
         return (
           <div>
             <Container>
