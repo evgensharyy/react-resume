@@ -13,6 +13,7 @@ import Col from 'react-bootstrap/Col';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
+import Link from '@material-ui/core/Link';
 
 const useStyles = makeStyles(theme => ({
     paper: {
@@ -130,19 +131,15 @@ export default function Contact() {
         aria-labelledby="email-title"
         aria-describedby="email-description"
       >
-        <DialogTitle id="email-title">{"Use Google's location service?"}</DialogTitle>
+        <DialogTitle id="email-title">{"You can write me a letter."}</DialogTitle>
         <DialogContent>
           <DialogContentText id="email-description">
-            Let Google help apps determine location. This means sending anonymous location data to
-            Google, even when no apps are running.
+          evgensharyy@gmail.com
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleCloseEmail} color="primary">
-            Disagree
-          </Button>
-          <Button onClick={handleCloseEmail} color="primary" autoFocus>
-            Agree
+          Close
           </Button>
         </DialogActions>
       </Dialog>
@@ -153,19 +150,15 @@ export default function Contact() {
         aria-labelledby="phone-title"
         aria-describedby="phone-description"
       >
-        <DialogTitle id="phone-title">{"Use Google's location service?"}</DialogTitle>
+        <DialogTitle id="phone-title">{"You can call me by phone."}</DialogTitle>
         <DialogContent>
           <DialogContentText id="phone-description">
-            Let Google help apps determine location. This means sending anonymous location data to
-            Google, even when no apps are running.
+            +38 (099) 920-41-12
           </DialogContentText>
         </DialogContent>
         <DialogActions>
           <Button onClick={handleClosePhone} color="primary">
-            Disagree
-          </Button>
-          <Button onClick={handleClosePhone} color="primary" autoFocus>
-            Agree
+            Close
           </Button>
         </DialogActions>
       </Dialog>
@@ -176,19 +169,17 @@ export default function Contact() {
         aria-labelledby="linkedin-title"
         aria-describedby="linkedin-description"
       >
-        <DialogTitle id="linkedin-title">{"Use Google's location service?"}</DialogTitle>
+        <DialogTitle id="linkedin-title">{"You can contact me on LinkedIn."}</DialogTitle>
         <DialogContent>
           <DialogContentText id="linkedin-description">
-            Let Google help apps determine location. This means sending anonymous location data to
-            Google, even when no apps are running.
+          <Link href={'https://www.linkedin.com/in/yevhen-sharyi/'} className={classes.link}>
+                    LinkedIn Profile
+                </Link>
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={handleCloseLinkedIn} color="primary">
-            Disagree
-          </Button>
-          <Button onClick={handleCloseLinkedIn} color="primary" autoFocus>
-            Agree
+        <Button onClick={handleClosePhone} color="primary">
+            Close
           </Button>
         </DialogActions>
       </Dialog>
