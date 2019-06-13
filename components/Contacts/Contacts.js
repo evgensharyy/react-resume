@@ -178,7 +178,7 @@ export default function Contact() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-        <Button onClick={handleClosePhone} color="primary">
+        <Button onClick={handleCloseLinkedIn} color="primary">
             Close
           </Button>
         </DialogActions>

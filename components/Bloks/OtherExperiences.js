@@ -52,7 +52,7 @@ function OtherExperiences() {
           </Alert>
         </Tab>
         <Tab eventKey="advertising" title="Online Advertising">
-        <Alert variant="success" className={classes.alert}>
+        <Alert variant="info" className={classes.alert}>
             <Alert.Heading>Internet advertising and advertising in social networks</Alert.Heading>
             <p>
               An advertisement displayed on time can turn a regular user into a valuable customer.
