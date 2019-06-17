@@ -78,7 +78,7 @@ export default function Contact() {
 
   return (
     <div>
-       <Container>
+       <Container fluid='true'>
               <Row>
                   <Col lg={2}><Photo /></Col>
                   <Col lg={10}>
@@ -95,7 +95,7 @@ export default function Contact() {
                   </Col>
               </Row>
               <Row>
-                <Col sm={4}>
+                <Col lg={4}>
                 <Paper className={classes.contactPaper}>
                 <Grid container justify="center" alignItems="center">
                 <Button variant="outlined" color="primary" onClick={handleClickOpenEmail}>
@@ -104,7 +104,7 @@ export default function Contact() {
                 </Grid>
                 </Paper>
                 </Col>
-                <Col sm={4}>
+                <Col lg={4}>
                 <Paper className={classes.contactPaper}>
                 <Grid container justify="center" alignItems="center">
                 <Button variant="outlined" color="primary" onClick={handleClickOpenPhone}>
@@ -113,7 +113,7 @@ export default function Contact() {
                 </Grid>
                 </Paper>
                 </Col>
-                <Col sm={4}>
+                <Col lg={4}>
                 <Paper className={classes.contactPaper}>
                 <Grid container justify="center" alignItems="center">
                 <Button variant="outlined" color="primary" onClick={handleClickOpenLinkedIn}>
