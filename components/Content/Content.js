@@ -14,24 +14,24 @@ import OtherExperiences from '../Bloks/OtherExperiences';
 export default function Content() {
         return (
           <div>
-            <Container>
+            <Container fluid='true'>
               <AboutBlok />
             </Container>
-            <Container>
+            <Container fluid='true'>
               <Row>
-                <Col sm><SkillsBlock /></Col>
+                <Col lg><SkillsBlock /></Col>
               </Row>
               <Row>
-                <Col sm><PortfolioBlock /></Col>
+                <Col lg><PortfolioBlock /></Col>
               </Row>
               <Row>
-                <Col sm><EmploymentHistoryBlok /></Col>
+                <Col lg><EmploymentHistoryBlok /></Col>
               </Row>
               <Row>
-                <Col sm><EducationBlok /></Col>
+                <Col lg><EducationBlok /></Col>
               </Row>
               <Row>
-                <Col sm><OtherExperiences /></Col>
+                <Col lg><OtherExperiences /></Col>
               </Row>
             </Container>
           </div>                     

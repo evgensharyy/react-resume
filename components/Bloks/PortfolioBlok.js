@@ -53,7 +53,7 @@ function PortfolioBlock() {
       />
       <CardContent>
         <Row>
-          <Col sm>
+          <Col lg>
             <Card className={classes.card}>
               <CardHeader />
               <CardMedia
@@ -89,7 +89,7 @@ function PortfolioBlock() {
               </CardContent>
             </Card>
           </Col>
-          <Col sm>
+          <Col lg>
             <Card className={classes.card}>
               <CardHeader />
               <CardMedia
@@ -132,7 +132,7 @@ function PortfolioBlock() {
               </CardContent>
             </Card>
           </Col>
-          <Col sm>
+          <Col lg>
             <Card className={classes.card}>
               <CardHeader />
               <CardMedia
